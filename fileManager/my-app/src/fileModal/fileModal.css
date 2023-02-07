@@ -1,0 +1,46 @@
+.file-Modal{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modal{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:1;
+    transition: opacity 400ms ease-in;
+    pointer-events: auto;
+}
+.fileModal-content{
+    display: grid;
+    grid-auto-columns: auto;
+    justify-content: center;
+    align-items:center;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: black;
+    color:white;
+    width: 400px;
+    height: 200px;
+    margin:  10% auto;
+
+}
+
+
+/*060713448*/
+/*00198*/
+
+

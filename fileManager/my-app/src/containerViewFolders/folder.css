@@ -1,0 +1,24 @@
+
+NavLink{
+    color: #090909;
+    text-decoration: none;
+}
+.img{
+    height: 150px;
+
+}
+.folder{
+    color: #090909;
+    font-size: 30px;
+}
+.selected {
+    background-color: #47cccc;
+    font-size: 30px;
+
+    z-index: 1;
+}
+
+.file{
+    color: #090909;
+    font-size: 30px;
+}

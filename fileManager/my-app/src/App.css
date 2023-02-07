@@ -1,0 +1,21 @@
+
+.bread-crumbs{
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    transform: skew(-23deg);
+    flex-wrap: wrap-reverse;
+
+}
+.link{
+    text-decoration: none ;
+}
+.crumb{
+    border: 1px solid black;
+
+    text-decoration: none;
+    color: #090909;
+    border-radius: 7px;
+    margin: 5px;
+    padding: 0 40px;
+}

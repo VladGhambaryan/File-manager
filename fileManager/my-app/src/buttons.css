@@ -1,0 +1,17 @@
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    font-size: 18px;
+    border-radius: 0.5em;
+    color: #090909;
+    transition :all 0.8s;
+   box-shadow: 6px 6px 50px #c5c5c5
+}
+button:active{
+    color: #666;
+    box-shadow: inset 8px 8px 50px #c5c5c5
+}
